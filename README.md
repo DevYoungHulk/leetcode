@@ -1,3 +1,3 @@
-![CI on push](https://github.com/actions/leetcode/workflows/.github/workflows/maven.yml/badge.svg)
+![CI](https://github.com/DevYoungHulk/leetcode/workflows/Java%20CI%20with%20Maven/badge.svg)
 
 # leetcode

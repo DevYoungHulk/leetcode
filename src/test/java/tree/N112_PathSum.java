@@ -2,7 +2,7 @@ package tree;
 
 import org.junit.Assert;
 import org.junit.Test;
-import tree.model.TreeNode;
+import model.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

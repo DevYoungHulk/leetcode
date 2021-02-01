@@ -9,7 +9,7 @@ import java.util.List;
 
 public class N112_PathSum {
     @Test
-    public void N112_PathSum() {
+    public void test() {
         TreeNode node5 = new TreeNode(5);
         TreeNode node4 = new TreeNode(4);
         TreeNode node11 = new TreeNode(11);

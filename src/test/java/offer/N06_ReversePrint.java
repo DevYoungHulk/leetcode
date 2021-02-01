@@ -3,14 +3,11 @@ package offer;
 import model.ListNode;
 import org.junit.Assert;
 import org.junit.Test;
-
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
 
 public class N06_ReversePrint {
     @Test
-    public void N06_ReversePrint() {
+    public void test() {
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
         head.next.next = new ListNode(3);

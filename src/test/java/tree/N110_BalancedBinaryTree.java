@@ -3,11 +3,9 @@ package tree;
 import org.junit.Assert;
 import org.junit.Test;
 
-import javax.swing.tree.TreeNode;
-
 public class N110_BalancedBinaryTree {
     @Test
-    public void N110_BalancedBinaryTree() {
+    public void test() {
         TreeNode treeNode1 = new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7)));
         Assert.assertTrue(isBalanced(treeNode1));
         TreeNode treeNode2 = new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7, new TreeNode(9), new TreeNode(10))));

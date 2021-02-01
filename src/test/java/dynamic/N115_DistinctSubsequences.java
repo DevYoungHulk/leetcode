@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class N115_DistinctSubsequences {
     @Test
-    public void N115_DistinctSubsequences() {
+    public void test() {
         Assert.assertEquals(numDistinct("rabbbit", "rabbit"), 3);
         Assert.assertEquals(numDistinct("babgbag", "bag"), 5);
     }

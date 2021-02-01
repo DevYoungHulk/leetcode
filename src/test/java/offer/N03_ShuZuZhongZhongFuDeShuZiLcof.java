@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class N03_ShuZuZhongZhongFuDeShuZiLcof {
     @Test
-    public void N03_ShuZuZhongZhongFuDeShuZiLcof() {
+    public void test() {
         int repeatNumber = findRepeatNumber(new int[]{2, 3, 1, 0, 2, 5, 3});
         System.out.println(repeatNumber);
         Assert.assertTrue(repeatNumber == 2 || repeatNumber == 3);

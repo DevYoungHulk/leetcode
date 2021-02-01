@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class N04_FindNumberIn2DArray {
     @Test
-    public void N04_FindNumberIn2DArray() {
+    public void test() {
         int[][] matrix = {
                 new int[]{1, 4, 7, 11, 15},
                 new int[]{2, 5, 8, 12, 19},

@@ -6,7 +6,7 @@ import model.TreeNode;
 
 public class N114_FlattenBinaryTreeToLinkedList {
     @Test
-    public void N114_FlattenBinaryTreeToLinkedList() {
+    public void test() {
         TreeNode root = new TreeNode(1, new TreeNode(2, new TreeNode(3), new TreeNode(4)), new TreeNode(5, null, new TreeNode(6)));
         flatten(root);
         Assert.assertEquals(root.val, 1);

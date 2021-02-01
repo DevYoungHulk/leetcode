@@ -3,14 +3,13 @@ package tree;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Stack;
 
 public class N1682_DesignAnExpressionTreeWithEvaluateFunction {
     @Test
-    public void N1682_DesignAnExpressionTreeWithEvaluateFunction() {
+    public void test() {
         String[] data = new String[]{"3", "4", "+", "2", "*", "7", "/"};
         Assert.assertEquals(new TreeBuilder().buildTree(data).evaluate(), 2);
         String[] data2 = new String[]{"4", "5", "7", "2", "+", "-", "*"};

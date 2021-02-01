@@ -9,7 +9,7 @@ import java.util.List;
 
 public class N111_MinimumDepthOfBinaryTree {
     @Test
-    public void N111_MinimumDepthOfBinaryTree() {
+    public void test() {
         int i4 = minDepth(new TreeNode(2,
                 null, new TreeNode(3, null, new TreeNode(4,
                 null, new TreeNode(5,

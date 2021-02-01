@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class N05_ReplaceSpace {
     @Test
-    public void N05_ReplaceSpace() {
+    public void test() {
         String a_a = replaceSpace("a a");
         System.out.println(a_a);
         Assert.assertEquals(a_a, "a%20a");
